@@ -215,11 +215,12 @@ h2 {
 
 input {
 	width: 100%;
+	display: block;
 	border: none;
 	border-radius: 0.5rem;
 	padding: 1.5rem;
 	background: rgb(238, 236, 236);
-	margin-bottom: 2rem;
+	margin: 2rem 0;
 }
 
 ::placeholder {
@@ -234,7 +235,7 @@ input {
 	border: none;
 	border-radius: 0.5rem;
 	background: rgb(238, 236, 236);
-	margin-bottom: 2rem;
+	margin: 2rem 0;
 	color: rgb(187, 187, 187);
 }
 input#zip_code {
