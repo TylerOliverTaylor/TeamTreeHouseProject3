@@ -251,4 +251,54 @@ input#zip_code {
 .select {
 	font-size: 1.5rem;
 	color: lightgrey;
+	padding-bottom: 2rem;
+	color: rgb(70, 79, 87);
+}
+
+
+.formsectiontwo{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: left;
+}
+
+.htmlnews,
+.cssnews,
+.javascriptnews{
+	display: flex;
+	justify-items: space-between;
+	align-items: center;
+	padding: 1.5rem 0;
+	font-size: 1.5rem;
+	color:rgb(70, 79, 87);
+}
+
+input[type="checkbox"]{
+	width: auto;
+	margin: 0 1rem 0 0;
+}
+
+.newsletter_format{
+	font-size: 1.5rem;
+	color: lightgrey;
+	padding: 2rem 0;
+	
+	color: rgb(70, 79, 87);
+}
+
+input[type="radio"]{
+	width: auto;
+	margin: 0 1rem 0 0;
+	order: -1;
+}
+
+.newsletterhtml,
+.newsletterplain{
+	display: flex;
+	justify-items: space-between;
+	align-items: center;
+	padding: 1.5rem 0;
+	font-size: 1.5rem;
+	color:rgb(70, 79, 87);
 }

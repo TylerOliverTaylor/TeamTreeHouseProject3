@@ -55,29 +55,37 @@
 				<fieldset>
 					<legend class="newsletter">Newsletter</legend>
 
-					<p class="select">
-						Select the newsletter you would like to recieve
-					</p>
-					<input type="checkbox" name="newsletter_type" value="html_news">
-					<label>HTML News</label>
+					<p class="select">Select the newsletter you would like to recieve</p>
 
-					<input type="checkbox" name="newsletter_type" value="css_news">
-					<label>CSS News</label>
+					<section class="formsectiontwo">
 
-					<input type="checkbox" name="newsletter_type" value="javascript_news">
-					<label>Javascript News</label>
+						<label class="htmlnews">
+							<input type="checkbox" name="newsletter_type" value="html_news">
+							HTML News
+						</label>
 
-					<p>Newsletter format</p>
-					<input type="radio" name="newsletter_format" value="html">
-					<label>HTML</label>
+						<label class="cssnews">
+							<input type="checkbox" name="newsletter_type" value="css_news">
+							CSS News
+						</label>
 
-					<input type="radio" name="newsletter_format" value="plain_text">
-					<label>Plain text</label>
+						<label class="javascriptnews">
+							<input type="checkbox" name="newsletter_type" value="javascript_news">
+							Javascript News
+						</label>
 
-					<label>Other topics you'd like to hear about</label>
-					<textarea rows="4" cols="40"></textarea>
+						<p class="newsletter_format">Newsletter format</p>
 
-					<input type="submit" id="signup" name="signup" value="Sign Up">
+						<label class="newsletterhtml">HTML<input type="radio" name="newsletter_format"
+								value="html"></label>
+
+						<label class="newsletterplain">Plain text<input type="radio" name="newsletter_format"
+								value="plain_text"></label>
+
+						<label>Other topics you'd like to hear about<textarea rows="4" cols="40"></textarea></label>
+
+						<input type="submit" id="signup" name="signup" value="Sign Up">
+					</section>
 				</fieldset>
 			</form>
 		</section>
