@@ -184,7 +184,7 @@ h2 {
 	color: lightgrey;
 }
 
-/*-------Form Section 1-------*/
+/*-------Form Section 1 and 2-------*/
 
 .form {
 	width: 90%;
@@ -193,7 +193,8 @@ h2 {
 	padding-bottom: 10rem;
 }
 
-.contactinfo {
+.contactinfo,
+.newsletter {
 	font-size: 2rem;
 	font-weight: 700;
 	padding: 2rem 0;
@@ -213,7 +214,7 @@ h2 {
 }
 
 input {
-	width: 90%;
+	width: 100%;
 	border: none;
 	border-radius: 0.5rem;
 	padding: 1.5rem;
@@ -228,7 +229,7 @@ input {
 }
 
 #state {
-	width: 90%;
+	width: 100%;
 	padding: 1.5rem;
 	border: none;
 	border-radius: 0.5rem;
@@ -236,7 +237,17 @@ input {
 	margin-bottom: 2rem;
 	color: rgb(187, 187, 187);
 }
+input#zip_code {
+	width: 50%;
+}
 
 .firstform {
 	border-bottom: solid black 0.2rem;
+}
+
+/*-------Form Section 2-------*/
+
+.select {
+	font-size: 1.5rem;
+	color: lightgrey;
 }
