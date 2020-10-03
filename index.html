@@ -22,7 +22,7 @@
 				Get the latest news on how your code is doing right in your inbox
 			</p>
 		</section>
-		<section class="form">
+		<div class="form">
 			<form action="info.php" method="get">
 				<fieldset class="firstform">
 					<legend class="contactinfo">Contact Information</legend>
@@ -57,20 +57,20 @@
 
 					<p class="select">Select the newsletter you would like to recieve</p>
 
-					<section class="formsectiontwo">
+					<div class="formsectiontwo">
 
 						<label class="htmlnews">
-							<input type="checkbox" name="newsletter_type" value="html_news">
+							<input type="checkbox" id="html_news" name="newsletter_type" value="html_news">
 							HTML News
 						</label>
 
 						<label class="cssnews">
-							<input type="checkbox" name="newsletter_type" value="css_news">
+							<input type="checkbox" id="css_news" name="newsletter_type" value="css_news">
 							CSS News
 						</label>
 
 						<label class="javascriptnews">
-							<input type="checkbox" name="newsletter_type" value="javascript_news">
+							<input type="checkbox" id="javascript_news" name="newsletter_type" value="javascript_news">
 							Javascript News
 						</label>
 
@@ -79,17 +79,17 @@
 						<label class="newsletterhtml">HTML<input type="radio" name="newsletter_format"
 								value="html"></label>
 
-						<label class="newsletterplain">Plain text<input type="radio" name="newsletter_format"
-								value="plain_text"></label>
+						<label class="newsletterplain">Plain text<input type="radio" id="plain-text"
+								name="newsletter_format" value="plain_text"></label>
 
-						<label class="othertopics">Other topics you'd like to hear about<textarea rows="4"
-								cols="40"></textarea></label>
+						<label class="othertopics">Other topics you'd like to hear about<textarea id="othertopics"
+								name="othertopics" rows="4" cols="40"></textarea></label>
 
 						<input type="submit" id="signup" name="signup" value="Sign Up">
-					</section>
+					</div>
 				</fieldset>
 			</form>
-		</section>
+		</div>
 		<footer>
 			<h3>Copyright The Code Review</h3>
 		</footer>

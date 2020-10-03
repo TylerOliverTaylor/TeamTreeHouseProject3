@@ -267,7 +267,6 @@ input#zip_code {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	align-items: left;
 	margin: auto;
 }
 
@@ -275,7 +274,6 @@ input#zip_code {
 .cssnews,
 .javascriptnews{
 	display: flex;
-	justify-items: space-between;
 	align-items: center;
 	padding: 1.5rem 0;
 	font-size: 1.5rem;
@@ -303,7 +301,6 @@ input[type="radio"]{
 .newsletterhtml,
 .newsletterplain{
 	display: flex;
-	justify-items: space-between;
 	align-items: center;
 	padding: 1.5rem 0;
 	font-size: 1.5rem;
@@ -343,10 +340,35 @@ footer{
 	display: flex;
 	justify-content: center;
 	height: 2rem;
+	margin: 0 0 2rem 0;
 }
 
 h3{
 	font-style: italic;
 	color: rgb(187, 187, 187);
 	font-size: 1.5rem;
+}
+
+@media (min-width: 768px){
+
+	.form{
+		width: 55%;
+	}
+
+	.signupinfo {
+		width: 55%;
+	}
+	
+	.signup {
+		font-size: 1.5rem;
+		color: lightgrey;
+	}
+
+	textarea{
+		margin-top: 2rem;
+	}
+
+	footer{
+		margin: 0 0 2rem 0;
+	}
 }
