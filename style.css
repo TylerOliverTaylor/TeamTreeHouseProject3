@@ -236,6 +236,17 @@ input:focus{
 	
 }
 
+textarea:focus{
+	outline: none;
+	box-shadow: 0 0 0px 2px slategray;
+}
+
+select:focus{
+	outline: none;
+	box-shadow: 0 0 0px 2px slategray;
+	
+}
+
 #state {
 	width: 100%;
 	padding: 1.5rem;
