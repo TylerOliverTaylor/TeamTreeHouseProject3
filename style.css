@@ -366,6 +366,10 @@ h3{
 		width: 55%;
 	}
 
+	p.signup{
+		font-size: 1.2rem;
+	}
+
 	.signupinfo {
 		width: 55%;
 	}
@@ -377,6 +381,19 @@ h3{
 
 	textarea{
 		margin-top: 2rem;
+	}
+
+	.divlabel{
+		display: flex;
+		align-items: center;
+	}
+
+	label{
+		width: 50%;
+	}
+
+	.zipcode{
+		width: 33%;
 	}
 
 	footer{
